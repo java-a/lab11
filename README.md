@@ -99,5 +99,5 @@ In addition, `String[] splitTableRow(String line)` is provided to help you split
 Upload your work to:
 
 ```shell
-ftp://10.132.141.33/classes/16/161 程序设计A （戴开宇）/WORK_UPLOAD/lab9
+ftp://10.132.141.33/classes/16/161 程序设计A （戴开宇）/WORK_UPLOAD/lab11
 ```
