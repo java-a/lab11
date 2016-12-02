@@ -4,6 +4,6 @@
 public class TestMarkdownTableParser {
     public static void main(String[] args) {
         MarkdownTable table = new MarkdownTable("test/fixtures/score.md");
-        table = null;
+        // Add your method calls here
     }
 }
