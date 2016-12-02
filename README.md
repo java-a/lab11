@@ -1,9 +1,22 @@
 # lab11
-In this lab, you are required to write a simple parser for Markdown tables. We focus on the the design of object hierarchy and relations. Before that, you are provided with an example, showing how `Aspose.Cells` can be used to multiplate a CSV format table.
+In this lab, you are required to write a simple parser for Markdown tables. We focus on the the design of object hierarchy and relations. Before that, you are provided with an example, showing how `Aspose.Cells` can be used to manipulate a CSV format table.
 
 ## Aspose.Cells
 
+The following code is used to get the value in a certain cell using `Aspose.Cells`. Run the sample code from `test/TestCSVParser.java` (you might need to right click on `lib/aspose-cells-16.11.0.jar` and add as library). Try it yourself!
 
+```java
+//Instantiate LoadOptions specified by the LoadFormat.
+LoadOptions loadOptions = new LoadOptions(LoadFormat.CSV);
+//Create a Workbook object and opening the file from its path.
+Workbook workbook = new Workbook("test/fixtures/score.csv", loadOptions);
+Worksheet sheet = workbook.getWorksheets().get(0);
+Cells cells = sheet.getCells();
+String score = cells.get(23, 3).getStringValue();
+System.out.println("Score of 16302010041 is: " + score);
+```
+
+More usages can be found from the [API Reference](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet). [Aspose](http://www.aspose.com/products/total/java) can also be used to manipulate Word, Excel, PDF, PowerPoint, Outlook and more than 100 other file formats.
 
 ## Markdown Table Parser
 
@@ -23,7 +36,7 @@ The syntax for a table is a bit more complex. Take the following table as an exa
 | 5    | 16302010005 | Male   | 88.8  |
 ```
 
-The first row is the table header, and the second row serves as the seperater which takes no effect. The rest of the file contains rows of table records. In each row, columns are seperated by a `|`. Especially note that, you can add as many spaces as you want, since they will be ignored when being parsed. The table will be rendered into:
+The first row is the table header, and the second row serves as the separator which takes no effect. The rest of the file contains rows of table records. In each row, columns are separated by a `|`. Especially note that, you can add as many spaces as you want, since they will be ignored when being parsed. The table will be rendered into:
 
 | No   | ID          | Sex  | Score |
 | ---- | ----------- | ---- | ----- |
@@ -77,12 +90,14 @@ Represents the table itself. It takes a file path and parse the file into a `Mar
 
 **Step 4:** Review your design. Check if it satisfies all of the requirements.
 
+In addition, `String[] splitTableRow(String line)` is provided to help you split columns in a row.
 
+## Submission
 
-````java
-private String[] splitTableRow(String line) {
-    return line.replaceFirst("^\\|\\s*", "").split("\\s*\\|\\s*");
-}
-````
+**Deadline:** Tuesday, 2016.12.06 23:59:59 (UTC+8)
 
+Upload your work to:
 
+```shell
+ftp://10.132.141.33/classes/16/161 程序设计A （戴开宇）/WORK_UPLOAD/lab9
+```

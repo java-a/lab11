@@ -3,7 +3,7 @@
  */
 public class TestMarkdownTableParser {
     public static void main(String[] args) {
-        MarkdownTable table = new MarkdownTable("test/fixtures/score.md");
+        // MarkdownTable table = new MarkdownTable("test/fixtures/score.md");
         // Add your method calls here
     }
 }
