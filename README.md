@@ -3,7 +3,7 @@ In this lab, you are required to write a simple parser for Markdown tables. We f
 
 ## Aspose.Cells
 
-The following code is used to get the value in a certain cell using `Aspose.Cells`. Run the sample code from `test/TestCSVParser.java` (you might need to right click on `lib/aspose-cells-16.11.0.jar` and add as library). Try it yourself!
+The following code is used to get the value in a certain cell using `Aspose.Cells`. Run the sample code from `test/TestCSVParser.java`. Try it yourself!
 
 ```java
 //Instantiate LoadOptions specified by the LoadFormat.
@@ -22,7 +22,7 @@ More usages can be found from the [API Reference](http://www.aspose.com/api/java
 
 ### What is Markdown?
 
-A Markdown file is nothing but plain text using a lightweight syntax so that it can be easily converted to HTML. For example, the document you are reading now is rendered automatically from `README.md`. The syntax of Markdown is extremely simple, which makes it perfect for writing documentations. Some quick tricks: `**strong**` would be rendered to **strong**, `*italic*` to *italic*, etc.
+A Markdown file (`*.md`) is nothing but plain text using a lightweight syntax so that it can be easily converted to HTML. For example, the document you are reading now is rendered automatically from `README.md` (compare with [README.md](https://raw.githubusercontent.com/java-a/lab11/master/README.md) to see how it works). The syntax of Markdown is extremely simple, which makes it perfect for writing documentations. Some quick tricks: `**strong**` would be rendered to **strong**, `*italic*` to *italic*, etc.
 
 The syntax for a table is a bit more complex. Take the following table as an example:
 
