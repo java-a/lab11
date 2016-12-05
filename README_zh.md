@@ -16,13 +16,13 @@ String score = cells.get(23, 3).getStringValue();
 System.out.println("Score of 16302010041 is: " + score);
 ```
 
-更多用法可以在 [API Reference](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) 上找到。 [Aspose](http://www.aspose.com/products/total/java) 还可以被用来操作 Word、Excel、PDF、PowerPoint、Outlook等超过 100 种文件格式。
+更多用法可以在 [API Reference](http://www.aspose.com/api/java/cells/com.aspose.cells/classes/Worksheet) 上找到。 [Aspose](http://www.aspose.com/products/total/java) 还可以被用来操作 Word、Excel、PDF、PowerPoint、Outlook 等超过 100 种文件格式。
 
 ## Markdown 表格解析器
 
 ### Markdown是什么？
 
-Markdown 文件 (`*.md`) 只是一种纯文本格式的文件，但是使用了轻量级的语法，使它能够被轻易地渲染成 HTML （网页）。例如，你正在阅读的文档是从 `README.md` 自动生成而来的 (对比 [README.md](https://raw.githubusercontent.com/java-a/lab11/master/README.md)，看看这个转换是如何发生的)。Markdown 的语法非常简单，使它极其适合文档的编写。一些快速小技巧： `**粗体**` 将会被渲染成 **粗体**， `*斜体*` 被渲染成 *斜体* 等等。
+Markdown 文件 (`*.md`) 只是一种纯文本格式的文件，但是使用了轻量级的语法，使它能够被轻易地渲染成 HTML （网页）。例如，你正在阅读的文档是从 `README.md` 自动生成而来的 (对比 [README_zh.md](https://raw.githubusercontent.com/java-a/lab11/master/README_zh.md)，看看这个转换是如何发生的)。Markdown 的语法非常简单，使它极其适合文档的编写。一些快速小技巧： `**粗体**` 将会被渲染成 **粗体**， `*斜体*` 被渲染成 *斜体* 等等。
 
 表格的语法稍微复杂一些。以下面的表格为例：
 
