@@ -5,4 +5,7 @@
  * Extends `MarkdownTableRow`. Represents one record row in the table. No other methods are needed.
  */
 public class MarkdownTableRecord extends MarkdownTableRow {
+    public MarkdownTableRecord(String[] columns) {
+        super(columns);
+    }
 }
